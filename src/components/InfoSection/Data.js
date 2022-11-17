@@ -1,0 +1,70 @@
+
+
+export const homeObjectOne={
+    id:'machineLearning',
+    lightBg:false,
+    lightText:true,
+    lighTextDesc:true,
+    topLine:'Industries 4.0',
+    headLine:'Machine Learning',
+    description:'Machine learning is a branch of artificial intelligence that gives machines the ability to "learn" from data analysis in order to identify patterns and support decision-making with minimal human intervention; people and machines work hand in hand.',
+    buttonLabel:'Continue ',
+    imgStart:true,
+    img: require('../../images/mc.jpg'),
+    alt:'IA',
+    dark:true,
+    primary:true,
+    darkText:false,
+    go:"cloudComputing"
+}
+export const homeObjectTwo={
+    id:'cloudComputing',
+    lightBg:true,
+    lightText:false,
+    lighTextDesc:true,
+    topLine:'Industries 4.0',
+    headLine:'Clouding Computing',
+    description:'Cloud computing is the on-demand availability of computing resources as services over the Internet. This technology frees companies from having to take care of provisioning, configuring or managing resources and allows them to pay only for what they use.',
+    buttonLabel:'Continue',
+    imgStart:0,
+    img: require('../../images/CN.jpg'),
+    alt:'IA',
+    dark:false,
+    primary:false,
+    darkText:true,
+    go:"iot"
+}
+export const homeObjectThree={
+    id:'iot',
+    lightBg:false,
+    lightText:true,
+    lighTextDesc:true,
+    topLine:'Industries 4.0',
+    headLine:'Internet of Things (IoT)',
+    description:'Is the process of connecting everyday physical items to the Internet: from common household items like light bulbs to healthcare resources like medical devices; it also encompasses smart personal clothing and accessories and even smart city systems.',
+    buttonLabel:'Continue',
+    imgStart:1,
+    img: require('../../images/iot.png'),
+    alt:'IA',
+    dark:true,
+    primary:true,
+    darkText:false,
+    go:"cibersecurity",
+}
+export const homeObjectFour={
+    id:'cibersecurity',
+    lightBg:true,
+    lightText:false,
+    lighTextDesc:true,
+    topLine:'Industries 4.0',
+    headLine:'Cybersecurity',
+    description:'Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. Typically, these cyberattacks aim to access, modify, or destroy sensitive information; Extort money from users or users or disrupt business continuity.',
+    buttonLabel:'Continue',
+    imgStart:0,
+    img: require('../../images/cibercurity.jpg'),
+    alt:'IA',
+    dark:false,
+    primary:false,
+    darkText:true,
+    go:"services"
+}
